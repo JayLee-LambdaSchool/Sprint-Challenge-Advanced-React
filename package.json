@@ -6,13 +6,16 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "cors": "^2.8.3",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "semantic-ui-react": "^0.88.2",
+    "styled-components": "^5.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.17.2"
   },
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "test": "jest"
   },
   "author": "Lambda School",
   "license": "ISC"
