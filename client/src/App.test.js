@@ -19,7 +19,7 @@ it('renders Searches', () => {
 it('renders Womens World', () => {
   const wrapped = rtl.render(<App/>);
 
-  const heading2 = wrapped.queryByText(/Womens World/i);
+  const heading2 = wrapped.queryByText(/Women's World/i);
 
   expect(heading2).toBeTruthy();
 
